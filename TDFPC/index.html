@@ -6,7 +6,7 @@
 		<style>
 			body {
 				background: rgb(0, 0, 0);
-				color: rgb(0, 0, 0);
+				color: rgb(255, 255, 255);
 			}
 		</style>
 	</head>
@@ -18,7 +18,7 @@
 		<script>
 			var date = document.getElementById("date");
 			var time = document.getElementById("time");
-			time.addEventListener("click", function {
+			time.addEventListener("onclick", function { console.log("Hi!"); console.log(date.value);
 				if (date.value === "04/07/8100") {
 					document.getElementById("result").innerHTML = "<strong>This is the path that leads to /stronghold</strong>";
 				}
