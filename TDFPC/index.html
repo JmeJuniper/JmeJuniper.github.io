@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome</title>
+		<meta charset = "utf-8">
+		<style>
+			body {
+				background: rgb(0, 0, 0);
+				color: rgb(0, 0, 0);
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Welcome...</h1>
+		<input type = "date" id = "date">
+		<button id = "time">Click me</button>
+		<p id = "result"></p>
+		<script>
+			var date = document.getElementById("date");
+			var time = document.getElementById("time");
+			time.addEventListener("click", function {
+				if (date.value === "04/07/8100") {
+					document.getElementById("result").innerHTML = "<strong>This is the path that leads to /stronghold</strong>";
+				}
+			});
+		</script>
+	</body>
+</html>
